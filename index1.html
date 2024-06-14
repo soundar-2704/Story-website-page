@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding:0;
+}form{
+background-color:rgb(95, 173, 233);
+filter:brightness(90%);
+width:55%;
+border:2px solid rgb(71, 16, 209);
+margin-left:350px;
+
+}label{
+    color:navy;
+    padding:10px;
+}input[type="text"]{
+    height:30px;
+    width:190px;
+}option{
+    background-color:rgb(133, 182, 203);
+}textarea{
+    background-color: blueviolet;
+}button{
+    background-color:black ;
+    color:white;
+    padding:10px;
+    border-radius:30px;
+}  body {
+          background-image: url('https://3.bp.blogspot.com/-906HDJiF4Nk/UbAN4_DrK_I/AAAAAAAAAvE/pZQwo-u2RbQ/s1600/Background+images.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+      
+</style>
+<body>
+        
+    <section id="Register">
+        <form>
+         
+            <label>FirstName:</label>
+            <input type="text"
+            placeholder="Name"><br><br>
+            <label>LastName:</label>
+            <input type="text"
+            placeholder="FatherName"required><br><br>
+            <label>Gender:</label>
+            <input type="radio">male
+            <input type="radio">Female
+            <input type="radio">transgender<br><br>
+            <label>Countries:</label>
+            <input type="checkbox">Indian
+            <input type="checkbox">Foreigners<br><br>
+            
+            <lable>City:</lable>
+                <select>
+            <option>Choose Your City</option>
+            <option>Coimbatore</option>
+            <option>Selam,</option>
+            <option>Chennai</option>
+                </select><br> <br>
+               
+                <label>Address</label>
+                <textarea row "3">
+            
+            
+                </textarea><br><br>
+                <label>Age:</label>
+                <input type="number"><br><br>
+                <label>Password:</label>
+                <input type="password"
+                pattern="(?=,+\d)(?=,'[a-z])(?=,+[A-Z]),{6,}"
+            title="Must contain at least one number and one
+             uppercase and lowercase letter, and at least 6 or more characters"required><br><br>
+                <label>Email:</label>
+                <input type="Email"required><br><br>
+               
+                <label>url:</label>
+                <input type="url"required><br><br>
+               
+               
+                    
+            
+            
+            
+            
+            
+                <button>Submit</button>
+            
+    </section>
+    
+</body>
+</html>
